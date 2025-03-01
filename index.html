@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="no">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Cent Development</title>
+  <!-- Kobling til eksternt CSS -->
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <!-- Header / Toppmeny -->
+  <header class="header">
+    <nav class="navbar">
+      <div class="logo">Cent Development</div>
+      <ul class="nav-links">
+        <li><a href="#om-meg">Om meg</a></li>
+        <li><a href="#mine-mal">Mine mål</a></li>
+        <li><a href="#kontakt">Kontakt</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero-seksjon (introduksjon) -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Velkommen til Cent Development</h1>
+      <p>Her deler jeg mine prosjekter, tanker og mål for fremtiden.</p>
+      <a href="#om-meg" class="cta-button">Les mer</a>
+    </div>
+  </section>
+
+  <!-- Om meg-seksjon -->
+  <section id="om-meg" class="about-section">
+    <div class="container">
+      <h2>Om meg</h2>
+      <p>Hei! Jeg heter [Ditt Navn], og jeg er en [din profesjon/rolle]. Jeg liker å utforske nye teknologier, utvikle prosjekter og skape løsninger som kan hjelpe andre.</p>
+      <img src="assets/bilder/profilbilde.jpg" alt="Profilbilde av meg" class="profilbilde" />
+    </div>
+  </section>
+
+  <!-- Mine mål-seksjon -->
+  <section id="mine-mal" class="goals-section">
+    <div class="container">
+      <h2>Mine mål</h2>
+      <p>Jeg brenner for teknologi, innovasjon og å lære nye ting. Her er noen av mine nåværende mål:</p>
+      <ul>
+        <li>Bygge flere fullstack-applikasjoner</li>
+        <li>Utforske maskinlæring og kunstig intelligens</li>
+        <li>Bidra mer til open-source prosjekter</li>
+        <li>Utvikle verktøy som løser praktiske problemer</li>
+      </ul>
+    </div>
+  </section>
+
+  <!-- Kontakt-seksjon -->
+  <section id="kontakt" class="contact-section">
+    <div class="container">
+      <h2>Kontakt</h2>
+      <p>Har du spørsmål eller vil du samarbeide på et prosjekt? Kontakt meg gjerne på:</p>
+      <p><a href="mailto:cent@centdevelopment.com">cent@centdevelopment.com</a></p>
+      
+      <!-- Enkel kontaktskjema-illustrasjon (frivillig) -->
+      <!-- Merk: For at skjemaet skal sende mail direkte uten en server, kan du enten bruke mailto (som over) eller en server/backend-løsning. -->
+      <form action="mailto:cent@centdevelopment.com" method="post" enctype="text/plain" class="contact-form">
+        <div>
+          <label for="name">Navn:</label>
+          <input type="text" id="name" name="name" required />
+        </div>
+        <div>
+          <label for="email">E-post:</label>
+          <input type="email" id="email" name="email" required />
+        </div>
+        <div>
+          <label for="message">Melding:</label>
+          <textarea id="message" name="message" rows="4" required></textarea>
+        </div>
+        <button type="submit">Send</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- Footer / Bunntekst -->
+  <footer class="footer">
+    <div class="container">
+      <p>&copy; 2025 Cent Development</p>
+    </div>
+  </footer>
+</body>
+</html>
